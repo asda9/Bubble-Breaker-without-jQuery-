@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<!--ORIGINAL-->
+	<head> <title> Bubble Breaker! </title>
+		<link rel = "stylesheet" type = "text/css" href = "bubblestyle.css" /> 
+		<link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+	</head>
+	
+	<body onload = "changetime()"> 
+				
+		<br/>
+		<h1 class = "mainheading text"> Welcome to Bubble Breaker! </h1>	
+		<div id="instructions"> 
+			<b>The objective</b>: Burst as many bubbles as you can to get as many points as you can
+			in as little time as possible. 
+			Single click on a bubble to find out how many points you could get.
+			Click it again (or double click) to burst that bubble!
+			The bigger the sets of bubbles you burst at a time, the more points you get! 
+		</div>
+		
+		<div> 
+			<script type = "text/javascript" src = "bubbles.js"> </script> 
+		</div>
+
+		<br/>
+
+		<div id = "gametext">	
+			<span id = "left-text">
+				<p class = "text"> Elapsed Time: <span id = "timer"> 0 </span> seconds</p> 
+
+				<br/>
+		
+				<p id = "scoreinterm" class = "text"> You could earn <span id = "scoreincrease"> 0 </span> points with that bubble break!</p>
+
+				<br/>
+
+				<p class = "text"> Total Score: <span id = "score"> 0 </span> points </p>	
+			</span>
+
+			<span id = "buttonspan">
+				<button onclick = "restarttime(); clearscore(); newgame()"> New Game </button>
+			</span>		
+
+		</div>
+		
+		<script type = "text/javascript" src = "timer.js"> </script>
+
+		<script type = "text/javascript" src = "score.js"> </script>
+
+	</body>
+</html>

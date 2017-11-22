@@ -1,0 +1,93 @@
+/* bubblestyle.css - external style sheet for index.html */
+/*ORIGINAL*/
+
+body {
+	background: silver;
+}
+
+
+h1.mainheading {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.text {
+	font-family: Aclonica, Garamond, Georgia, serif;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+
+.bordered {
+	border: 2px solid;
+}
+
+
+.notbordered {
+	border: none;
+}
+
+
+img {
+	margin-left: 0.5px;
+	margin-right: 0.5px;
+	margin-top: -1.5px;
+	margin-bottom: -1.5px;
+	border: 2px solid silver;
+}
+
+
+div {
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	width: 680px;	
+}
+
+
+#instructions {
+	margin-top: 10px;
+	height: 60px;
+	margin-bottom:10px;
+	font-family: Garamond;
+	font-size: 107%;
+}
+
+
+#left-text {
+	
+	width: 450px;
+	display: inline-block;
+	margin-top:-5px;
+	margin-bottom: -5px;
+
+}
+
+
+#buttonspan {
+	margin-top:-50px;
+	width: 200px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+button {
+	color: black;
+	border-radius: 30px;
+	margin-left: 20px;
+	padding:20px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom:40px;
+	text-align: centre;
+}
+
+
+#scoreinterm {
+	opacity: 0; 
+	margin-top: -5px;
+	margin-bottom:-5px;
+}
